@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
+import WhatsAppBalloon from '@/components/whatsapp-balloon';
 
 export const metadata: Metadata = {
   title: 'LimpaTelhados - Limpeza Profissional de Telhados',
@@ -21,6 +22,7 @@ export default function RootLayout({
       </head>
       <body className="font-body antialiased">
         {children}
+        <WhatsAppBalloon />
         <Toaster />
       </body>
     </html>
