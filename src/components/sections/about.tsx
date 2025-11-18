@@ -32,7 +32,7 @@ export default function AboutSection() {
               </li>
             </ul>
             <Button asChild size="lg">
-              <a href="tel:+351966919593">Conheça mais</a>
+              <a href="tel:+351966919593">Contacte já</a>
             </Button>
           </div>
            <div className="order-first md:order-last">
