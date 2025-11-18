@@ -20,7 +20,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 text-center px-4 space-y-6">
         <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-shadow-lg">
-          Seu Telhado Limpo e Renovado com Sofisticação
+          Telhado Limpo e Renovado com Sofisticação
         </h1>
         <p className="text-lg md:text-xl max-w-3xl mx-auto text-neutral-200">
           Oferecemos limpeza profissional que protege, embeleza e valoriza o seu imóvel.
