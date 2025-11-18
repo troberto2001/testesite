@@ -10,8 +10,8 @@ const services = [
   },
   {
     id: "service-resin",
-    title: "Aplicação de Resina",
-    description: "Aplicamos uma camada protetora de resina que impermeabiliza, dá brilho e aumenta a vida útil das telhas.",
+    title: "Aplicação de Hidrofugante",
+    description: "Aplicamos um hidrofugante especial que impermeabiliza, protege contra umidade e reduz o aparecimento de fungos, aumentando a vida útil das telhas.",
   },
   {
     id: "service-maintenance",
