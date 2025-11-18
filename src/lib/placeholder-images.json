@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A beautiful modern house with a clean roof, seen from a low angle against a clear sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1565629615463-4b5caab86995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjbGVhbiUyMHJvb2Z8ZW58MHx8fHwxNzYzNDc0NjIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean roof"
+    },
+    {
+      "id": "service-cleaning",
+      "description": "Close-up of a high-pressure water jet cleaning a tiled roof.",
+      "imageUrl": "https://images.unsplash.com/photo-1563174499-83c108efd397?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cm9vZiUyMHByZXNzdXJlJTIwd2FzaHxlbnwwfHx8fDE3NjM0NzQ2MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "roof pressure wash"
+    },
+    {
+      "id": "service-resin",
+      "description": "A worker applying a clear resin coating to a clean roof.",
+      "imageUrl": "https://images.unsplash.com/photo-1655373617557-7138d45582d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyb29mJTIwY29hdGluZ3xlbnwwfHx8fDE3NjM0NzQ2MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "roof coating"
+    },
+    {
+      "id": "service-maintenance",
+      "description": "A professional inspecting a roof for potential issues.",
+      "imageUrl": "https://images.unsplash.com/photo-1609588959666-3cb46cabe3f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyb29mJTIwaW5zcGVjdGlvbnxlbnwwfHx8fDE3NjM0MjUzNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "roof inspection"
+    },
+    {
+      "id": "about-us",
+      "description": "A friendly team of professional cleaners in uniform, smiling in front of a company van.",
+      "imageUrl": "https://images.unsplash.com/photo-1758599669406-d5179ccefcb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGVhbmluZyUyMHRlYW18ZW58MHx8fHwxNzYzNDQ0MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cleaning team"
+    },
+    {
+      "id": "client-1",
+      "description": "Portrait of a smiling man in his 40s.",
+      "imageUrl": "https://images.unsplash.com/photo-1484863137850-59afcfe05386?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYXBweSUyMGNsaWVudHxlbnwwfHx8fDE3NjM0NTIzNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy client"
+    },
+    {
+      "id": "client-2",
+      "description": "Portrait of a smiling woman in her 50s.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbWlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzYzNDcwODE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling woman"
+    },
+    {
+      "id": "client-3",
+      "description": "Portrait of a satisfied-looking man in his 30s.",
+      "imageUrl": "https://images.unsplash.com/photo-1753161022619-d535b3abe1f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2F0aXNmaWVkJTIwY3VzdG9tZXJ8ZW58MHx8fHwxNzYzNDc0NjIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "satisfied customer"
+    }
+  ]
 }
