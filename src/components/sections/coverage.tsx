@@ -9,10 +9,10 @@ export default function CoverageSection() {
             <MapPin className="h-8 w-8" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold font-headline">
-            Nossa Área de Atuação
+            A Nossa Área de Atuação
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Atuamos em toda a Grande Lisboa e Península de Setúbal, levando nossos serviços de alta qualidade até si. Se estiver localizado nestas regiões, não hesite em nos contactar para um orçamento gratuito.
+            Atuamos em toda a Grande Lisboa e na Península de Setúbal, levando os nossos serviços de elevada qualidade até si. Se estiver localizado nestas regiões, não hesite em contactar-nos para solicitar um orçamento gratuito.
           </p>
         </div>
       </div>
