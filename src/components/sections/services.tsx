@@ -16,7 +16,7 @@ const services = [
   {
     id: "service-maintenance",
     title: "Manutenção Preventiva",
-    description: "Inspeção e reparos de pequenas avarias para garantir a integridade do seu telhado e evitar problemas futuros.",
+    description: "Verificação completa do telhado e correção de pequenos danos para manter tudo protegido e evitar transtornos futuros.",
   },
 ];
 
