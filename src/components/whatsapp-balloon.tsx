@@ -16,8 +16,7 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 
 export default function WhatsAppBalloon() {
-  // TODO: Replace with a real phone number
-  const phoneNumber = "5511999999999";
+  const phoneNumber = "351966919593";
   const message = "Olá! Gostaria de fazer um orçamento.";
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 

@@ -11,8 +11,6 @@ const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#servicos", label: "Serviços" },
   { href: "#sobre", label: "Sobre" },
-  { href: "#depoimentos", label: "Depoimentos" },
-  { href: "#contato", label: "Contato" },
 ];
 
 export default function Header() {
@@ -70,7 +68,7 @@ export default function Header() {
         </div>
         <div className="hidden md:block">
             <Button asChild>
-                <a href="#contato">Solicitar Orçamento</a>
+                <a href="tel:+351966919593">Solicitar Orçamento</a>
             </Button>
         </div>
       </div>
