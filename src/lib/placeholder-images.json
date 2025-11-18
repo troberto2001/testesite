@@ -3,8 +3,8 @@
     {
       "id": "hero-background",
       "description": "A beautiful modern house with a clean roof, seen from a low angle against a clear sky.",
-      "imageUrl": "https://images.unsplash.com/photo-1707897283683-00a5b942a167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyb29mJTIwcHJlc3N1cmUlMjB3YXNofGVufDB8fHx8MTc2MzQ3NDYyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "clean roof"
+      "imageUrl": "https://images.ctfassets.net/j4m9q0fykyy4/30K6RMYTUZSgsqPRKPurrI/f0eaac1135e45c37cc60d23abbfeb85d/2019-08-Nettoyeur-haute-pression-sur-toiture.jpg",
+      "imageHint": "roof pressure wash"
     },
     {
       "id": "service-cleaning",
