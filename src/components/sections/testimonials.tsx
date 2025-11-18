@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
                 <CardContent className="p-6 text-center flex-grow flex flex-col items-center">
                   {image && (
                      <Avatar className="w-20 h-20 mb-4 border-2 border-primary">
-                        <AvatarImage src={image.imageUrl} alt={image.description} data-ai-hint={image.imageHint} />
+                        <AvatarImage src={image.imageUrl} alt={image.description} data-ai-hint={image.imageHint} width={100} height={100} />
                         <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                     </Avatar>
                   )}
