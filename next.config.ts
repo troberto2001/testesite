@@ -45,7 +45,13 @@ const nextConfig: NextConfig = {
         hostname: 'images.ctfassets.net',
         port: '',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'algarvehousing.net',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
