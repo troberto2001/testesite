@@ -4,7 +4,7 @@ import Image from "next/image";
 const Logo = (props: SVGProps<SVGSVGElement>) => (
   <div className="flex items-center gap-2" >
     <Image
-        src="https://images.unsplash.com/photo-1718972839959-19c9ba144b6c?w=40"
+        src="https://i.imgur.com/gO1Xg9P.png"
         alt="LimpaTelhados Logo"
         width={32}
         height={32}
