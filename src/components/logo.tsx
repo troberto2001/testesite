@@ -1,82 +1,27 @@
 import type { SVGProps } from "react";
 
 const Logo = ({ width = 150, ...props }: SVGProps<SVGSVGElement> & { width?: number }) => {
-  const aspectRatio = 150 / 110;
+  const aspectRatio = 150 / 40;
   const height = width / aspectRatio;
 
   return (
     <svg
       width={width}
       height={height}
-      viewBox="0 0 150 110"
+      viewBox="0 0 150 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clipPath="url(#clip0_1_2)">
-        <path
-          d="M103.559 33.376C103.559 33.376 112.915 28.53 119.531 32.8169C125.748 36.8427 124.939 44.4239 122.921 47.9622C120.903 51.5005 116.657 52.887 116.657 52.887C116.657 52.887 127.808 50.8798 132.868 56.4039C138.489 62.5937 135.492 73.6644 129.544 77.9513C123.596 82.2382 116.197 78.4739 116.197 78.4739C116.197 78.4739 123.682 85.0454 121.378 91.8909C118.892 99.2979 109.919 100.865 105.749 97.4952C101.579 94.1256 102.502 87.8969 102.502 87.8969"
-          fill="#4DD3FF"
-        />
-        <path
-          d="M110.05 77.8972C108.066 82.2382 101.408 83.1818 97.9945 80.7055C94.5808 78.2292 94.8432 73.1417 96.8274 68.8007C98.8115 64.4597 104.208 62.6392 107.621 65.1155C111.035 67.5918 112.034 73.5562 110.05 77.8972Z"
-          fill="#4DD3FF"
-        />
-        <path
-          d="M136.877 69.8837C133.228 75.3533 125.438 75.6144 121.322 71.1685C117.208 66.7226 117.891 59.4346 121.54 53.965C125.189 48.4954 133.006 46.8043 137.12 51.2502C141.234 55.6961 140.526 64.4141 136.877 69.8837Z"
-          fill="#4DD3FF"
-        />
-        <path
-          d="M141.341 89.923C137.692 95.3926 129.902 95.6537 125.787 91.2078C121.673 86.7619 122.355 79.4739 126.004 74.0043C129.653 68.5347 137.47 66.8436 141.584 71.2895C145.698 75.7354 144.99 84.4534 141.341 89.923Z"
-d="M40.9167 43.1611L76.8334 20.6924L112.75 43.1611V53.68H40.9167V43.1611Z"
-          fill="#00528A"
-        />
-        <path d="M40.9167 53.68L112.75 53.68V81.3918H40.9167V53.68Z" fill="#00528A" />
-        <path
-          d="M71.75 60.5962H61.3333V66.502H71.75V60.5962Z"
-          fill="white"
-        />
-        <path
-          d="M82.1667 60.5962H71.75V66.502H82.1667V60.5962Z"
-          fill="white"
-        />
-        <path
-          d="M71.75 66.502H61.3333V72.4077H71.75V66.502Z"
-          fill="white"
-        />
-        <path
-          d="M82.1667 66.502H71.75V72.4077H82.1667V66.502Z"
-          fill="white"
-        />
-        <path
-          d="M31.5 29.584L67.4167 7.11523L103.333 29.584L142.083 6.04163L106.167 -16.4271L70.25 -38.8958L31.5 29.584Z"
-          fill="#00528A"
-        />
-        <path
-          d="M17.5834 89.4121C18.8959 84.6961 22.8751 81.3918 27.5417 81.3918H142.917C145.418 81.3918 147.604 82.5152 148.833 84.2885"
-          stroke="#00528A"
-          strokeWidth="12"
-          strokeMiterlimit="10"
-          strokeLinecap="round"
-        />
-        <path
-          d="M7.08333 103.565C13.5833 93.6277 19.1667 90.4121 27.5417 90.4121H142.917"
-          stroke="#00528A"
-          strokeWidth="12"
-          strokeMiterlimit="10"
-          strokeLinecap="round"
-        />
-      </g>
-      <text
-        style={{ fill: '#4DD3FF', fontFamily: 'Arial, sans-serif', fontSize: '24px', whiteSpace: 'pre' }}
-        x="60"
-        y="105"
-      >Limpa<tspan style={{ fill: '#00528A' }}>telhados</tspan></text>
-      <defs>
-        <clipPath id="clip0_1_2">
-          <rect width="150" height="110" fill="white" />
-        </clipPath>
-      </defs>
+        <text
+            x="50%"
+            y="50%"
+            dominantBaseline="middle"
+            textAnchor="middle"
+            style={{ fill: 'hsl(var(--primary))', fontFamily: 'Cormorant Garamond, serif', fontSize: '28px', fontWeight: '700', letterSpacing: '0.05em' }}
+        >
+            LimpaTelhados
+        </text>
     </svg>
   );
 };
