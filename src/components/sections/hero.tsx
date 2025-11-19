@@ -26,7 +26,7 @@ export default function HeroSection() {
           Oferecemos limpeza profissional que protege, embeleza e valoriza o seu imóvel.
         </p>
         <Button size="lg" asChild className="text-lg font-semibold">
-          <a href="tel:+351966919593">Solicitar Orçamento</a>
+          <a href="tel:+351966919593">Contactar já</a>
         </Button>
       </div>
     </section>
