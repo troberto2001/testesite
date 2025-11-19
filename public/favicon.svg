@@ -1,19 +1,5 @@
-import type { SVGProps } from "react";
-
-const Logo = ({ width = 150, ...props }: SVGProps<SVGSVGElement> & { width?: number }) => {
-  const aspectRatio = 150 / 110;
-  const height = width / aspectRatio;
-
-  return (
-    <svg
-      width={width}
-      height={height}
-      viewBox="0 0 150 110"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
-      <g clipPath="url(#clip0_1_2)">
+<svg width="150" height="110" viewBox="0 0 150 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_1_2)">
         <path
           d="M103.559 33.376C103.559 33.376 112.915 28.53 119.531 32.8169C125.748 36.8427 124.939 44.4239 122.921 47.9622C120.903 51.5005 116.657 52.887 116.657 52.887C116.657 52.887 127.808 50.8798 132.868 56.4039C138.489 62.5937 135.492 73.6644 129.544 77.9513C123.596 82.2382 116.197 78.4739 116.197 78.4739C116.197 78.4739 123.682 85.0454 121.378 91.8909C118.892 99.2979 109.919 100.865 105.749 97.4952C101.579 94.1256 102.502 87.8969 102.502 87.8969"
           fill="#4DD3FF"
@@ -25,10 +11,13 @@ const Logo = ({ width = 150, ...props }: SVGProps<SVGSVGElement> & { width?: num
         <path
           d="M136.877 69.8837C133.228 75.3533 125.438 75.6144 121.322 71.1685C117.208 66.7226 117.891 59.4346 121.54 53.965C125.189 48.4954 133.006 46.8043 137.12 51.2502C141.234 55.6961 140.526 64.4141 136.877 69.8837Z"
           fill="#4DD3FF"
+        >
+          <path
+          d="M141.341 89.923C137.692 95.3926 129.902 95.6537 125.787 91.2078C121.673 86.7619 122.355 79.4739 126.004 74.0043C129.653 68.5347 137.47 66.8436 141.584 71.2895C145.698 75.7354 144.99 84.4534 141.341 89.923Z"
+          fill="#4DD3FF"
         />
         <path
-          d="M141.341 89.923C137.692 95.3926 129.902 95.6537 125.787 91.2078C121.673 86.7619 122.355 79.4739 126.004 74.0043C129.653 68.5347 137.47 66.8436 141.584 71.2895C145.698 75.7354 144.99 84.4534 141.341 89.923Z"
-d="M40.9167 43.1611L76.8334 20.6924L112.75 43.1611V53.68H40.9167V43.1611Z"
+          d="M40.9167 43.1611L76.8334 20.6924L112.75 43.1611V53.68H40.9167V43.1611Z"
           fill="#00528A"
         />
         <path d="M40.9167 53.68L112.75 53.68V81.3918H40.9167V53.68Z" fill="#00528A" />
@@ -68,17 +57,13 @@ d="M40.9167 43.1611L76.8334 20.6924L112.75 43.1611V53.68H40.9167V43.1611Z"
         />
       </g>
       <text
-        style={{ fill: '#4DD3FF', fontFamily: 'Arial, sans-serif', fontSize: '24px', whiteSpace: 'pre' }}
+        style="fill:#4DD3FF; font-family:Arial, sans-serif; font-size: 24px; white-space: pre;"
         x="60"
         y="105"
-      >Limpa<tspan style={{ fill: '#00528A' }}>telhados</tspan></text>
+      >Limpa<tspan style="fill:#00528A;">telhados</tspan></text>
       <defs>
         <clipPath id="clip0_1_2">
           <rect width="150" height="110" fill="white" />
         </clipPath>
       </defs>
     </svg>
-  );
-};
-
-export default Logo;
