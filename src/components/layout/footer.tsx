@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-muted/50 border-t">
       <div className="container mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-8">
-          <div className="flex-1 space-y-4">
+          <div className="flex-1 space-y-4 md:order-2 flex flex-col items-center md:items-start">
             <h3 className="text-lg font-semibold font-headline">Contacte-nos</h3>
             <div className="space-y-2 text-muted-foreground">
               <div className="flex items-center justify-center md:justify-start gap-2">
@@ -19,13 +19,13 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="flex-1 flex flex-col items-center gap-4">
+          <div className="flex-1 flex flex-col items-center md:items-start gap-4 md:order-1">
              <Logo />
              <p className="text-sm text-muted-foreground">
                 © {new Date().getFullYear()} LimpaTelhados. Todos os direitos reservados.
              </p>
           </div>
-          <div className="flex-1" />
+          <div className="flex-1 md:order-3" />
         </div>
       </div>
     </footer>
