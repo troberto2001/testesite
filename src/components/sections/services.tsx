@@ -6,7 +6,7 @@ const services = [
   {
     id: "service-cleaning",
     title: "Limpeza Profunda",
-    description: "Removemos sujeira, musgo e fungos com equipamentos de alta tecnologia, restaurando a cor original do seu telhado.",
+    description: "Removemos sujidade, musgo e fungos com equipamentos de alta tecnologia, restaurando a cor original do seu telhado.",
   },
   {
     id: "service-resin",
