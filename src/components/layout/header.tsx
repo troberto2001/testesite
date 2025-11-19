@@ -69,7 +69,7 @@ export default function Header() {
         </div>
         <div className="hidden md:block">
             <Button asChild>
-                <a href="tel:+351966919593">Solicitar Orçamento</a>
+                <a href="tel:+351966919593">Contactar</a>
             </Button>
         </div>
       </div>
