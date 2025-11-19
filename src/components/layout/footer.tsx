@@ -19,12 +19,13 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="flex-1 flex flex-col items-center md:items-end gap-4">
+          <div className="flex-1 flex flex-col items-center gap-4">
              <Logo />
              <p className="text-sm text-muted-foreground">
                 © {new Date().getFullYear()} LimpaTelhados. Todos os direitos reservados.
              </p>
           </div>
+          <div className="flex-1" />
         </div>
       </div>
     </footer>
