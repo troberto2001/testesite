@@ -15,12 +15,12 @@ export default function AboutSection() {
               A Excelência que seu Telhado Merece
             </h2>
             <p className="text-lg text-muted-foreground">
-              A LimpaTelhados nasceu da paixão por cuidar e valorizar cada detalhe de um lar. Com anos de experiência, nossa equipe utiliza técnicas avançadas e produtos de ponta para garantir um serviço de limpeza que não apenas embeleza, mas também protege seu patrimônio.
+              A LimpaTelhados nasceu da paixão por cuidar e valorizar cada detalhe de um lar. Com anos de experiência, nossa equipa utiliza técnicas avançadas e produtos de ponta para garantir um serviço de limpeza que não apenas embeleza, mas também protege seu patrimônio.
             </p>
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-primary" />
-                <span>Equipe qualificada e segurada</span>
+                <span>Equipa qualificada e segurada</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-primary" />
