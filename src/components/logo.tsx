@@ -21,7 +21,7 @@ const Logo = ({ width = 150, ...props }: SVGProps<SVGSVGElement> & { width?: num
           fill="hsl(var(--primary))"
           style={{
               fontFamily: "var(--font-headline), serif",
-              fontSize: "24px",
+              fontSize: "22px",
               fontWeight: "bold",
           }}
       >
