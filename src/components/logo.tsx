@@ -1,24 +1,33 @@
 import type { SVGProps } from "react";
 
 const Logo = ({ width = 150, ...props }: SVGProps<SVGSVGElement> & { width?: number }) => {
-  const aspectRatio = 150 / 110;
+  const aspectRatio = 150 / 40;
   const height = width / aspectRatio;
 
   return (
     <svg
       width={width}
       height={height}
-      viewBox="0 0 150 110"
+      viewBox="0 0 150 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-        <path d="M40.3333 80.8333C35.4167 77.5 33.5 72.8333 33.5 68.5C33.5 62.5 36.5 57.5 41.5 54.5C39.5 50.5 39.1667 45.8333 40.5 42.5C41.8333 39.1667 44.5 36.8333 47.5 35.5C50.5 34.1667 53.8333 34.1667 56.5 35.5C55.1667 30.8333 55.5 26.1667 57.5 22.5C59.5 18.8333 63.1667 16.5 67.5 16.5C71.8333 16.5 75.5 18.8333 77.5 22.5C79.5 26.1667 79.8333 30.8333 78.5 35.5C81.5 34.1667 84.8333 34.1667 87.5 35.5C90.5 36.8333 93.1667 39.1667 94.5 42.5C95.8333 45.8333 95.5 50.5 93.5 54.5C98.5 57.5 101.5 62.5 101.5 68.5C101.5 72.8333 99.5833 77.5 94.6667 80.8333" fill="white"/>
-        <path d="M25 105L55 75L155 90L175 70L160 65L85 50L75 60L25 105Z" fill="white"/>
-        <path d="M75 60L85 50L170 68L155 90L75 60Z" fill="#D4D4D8"/>
+        <path d="M11.6948 5.38505L10.0637 6.4357L11.1143 4.80458L9.48318 3.75393L11.1143 2.70328L12.7454 3.75393L11.6948 5.38505Z" fill="white" stroke="white" strokeWidth="0.5"/>
+        <path d="M19.6948 5.38505L18.0637 6.4357L19.1143 4.80458L17.4832 3.75393L19.1143 2.70328L20.7454 3.75393L19.6948 5.38505Z" fill="white" stroke="white" strokeWidth="0.5"/>
+        <path d="M15.6948 9.38505L14.0637 10.4357L15.1143 8.80458L13.4832 7.75393L15.1143 6.70328L16.7454 7.75393L15.6948 9.38505Z" fill="white" stroke="white" strokeWidth="0.5"/>
+        <path d="M23.6948 9.38505L22.0637 10.4357L23.1143 8.80458L21.4832 7.75393L23.1143 6.70328L24.7454 7.75393L23.6948 9.38505Z" fill="white" stroke="white" strokeWidth="0.5"/>
+        <path d="M7.6948 9.38505L6.0637 10.4357L7.1143 8.80458L5.48318 7.75393L7.1143 6.70328L8.74542 7.75393L7.6948 9.38505Z" fill="white" stroke="white" strokeWidth="0.5"/>
+        <path d="M3.6948 13.3851L2.0637 14.4357L3.1143 12.8046L1.48318 11.7539L3.1143 10.7033L4.74542 11.7539L3.6948 13.3851Z" fill="white" stroke="white" strokeWidth="0.5"/>
+        <path d="M11.6948 13.3851L10.0637 14.4357L11.1143 12.8046L9.48318 11.7539L11.1143 10.7033L12.7454 11.7539L11.6948 13.3851Z" fill="white" stroke="white" strokeWidth="0.5"/>
+        <path d="M1.3335 19.5L25.3335 11.5" stroke="white" strokeWidth="2"/>
+        <path d="M1.3335 20.5L25.3335 12.5" stroke="white" strokeWidth="2"/>
+        <path d="M7.3335 19.5V30.8333" stroke="white" strokeWidth="2"/>
+        <path d="M26.3335 17.5V28.8333" stroke="white" strokeWidth="2"/>
+        <path d="M25.3335 18.5H36.6668" stroke="white" strokeWidth="2"/>
         <text
-            x="75"
-            y="85"
+            x="95"
+            y="25"
             fill="hsl(var(--primary))"
             textAnchor="middle"
             style={{
